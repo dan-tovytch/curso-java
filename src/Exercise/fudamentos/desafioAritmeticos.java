@@ -1,4 +1,4 @@
-package Exercise;
+package Exercise.fudamentos;
 
 public class desafioAritmeticos {
     public static void main(String[] args) {
