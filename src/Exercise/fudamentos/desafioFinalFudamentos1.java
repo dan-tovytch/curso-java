@@ -1,20 +1,16 @@
 package Exercise.fudamentos;
-
+// desafio converter fahrenheit para celsius
 import javax.swing.*;
 import java.util.Scanner;
 
 public class desafioFinalFudamentos1 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        String fahrenheitInput = JOptionPane.showInputDialog("Digite a temperatura em fahrenheit:");
+        String fahrenheitInput = JOptionPane.showInputDialog("Digite a temperatura em Fahrenheit:");
         double fahrenheit = Double.parseDouble(fahrenheitInput);
-        double fator = 5 / 9.0;
-        double ajuste = 32;
-        double resultado = fahrenheit + fator + ajuste;
 
-        System.out.println("O resultado é " +  + "ºC.");
+        // Realize os cálculos corretamente para converter de Fahrenheit para Celsius
+        double celsius = (fahrenheit - 32) * 5 / 9;
 
-
+        System.out.println("A temperatura em Celsius é: " + celsius + " ºC");
     }
-
 }
