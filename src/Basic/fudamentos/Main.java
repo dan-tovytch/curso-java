@@ -1,4 +1,4 @@
-package Basic;
+package Basic.fudamentos;
 import java.util.concurrent.TimeUnit;
 
 public class Main {

@@ -1,4 +1,4 @@
-package Basic;
+package Basic.fudamentos;
 
 public class Aula1 {
     public static void main(String[] args) {
