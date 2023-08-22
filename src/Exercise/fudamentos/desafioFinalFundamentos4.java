@@ -1,6 +1,5 @@
 package Exercise.fudamentos;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class desafioFinalFundamentos4 {
