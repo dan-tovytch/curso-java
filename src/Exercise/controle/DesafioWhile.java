@@ -14,9 +14,9 @@ public class DesafioWhile {
             System.out.print("Digite a nota que deseja calcular: ");
             total = entrada.nextDouble();
             if ((total <= 10 && total >= 0)) {
-                System.out.println("Nota inválida");
-            } else {
                 soma += total;
+            } else {
+                System.out.println("Nota inválida");
             } if (total != 0) {
 
                 contador++;
