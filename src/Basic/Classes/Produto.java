@@ -1,2 +1,9 @@
-package Basic.Classes;public class Produto {
+package Basic.Classes;
+
+public class Produto {
+
+    String nome;
+    double preso;
+    double desconto;
+
 }

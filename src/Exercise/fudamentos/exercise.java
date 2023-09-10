@@ -1,4 +1,4 @@
-package Exercise;
+package Exercise.fudamentos;
 import java.util.concurrent.TimeUnit;
 
 public class exercise {
