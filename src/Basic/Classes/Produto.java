@@ -3,7 +3,7 @@ package Basic.Classes;
 public class Produto {
 
     String nome;
-    double preso;
+    double preco;
     double desconto;
 
 }
