@@ -4,9 +4,6 @@ import javax.swing.*;
 import java.util.Scanner;
 
 public class DesafioCalculadora{
-    // ler num1
-    // ler num2
-    // + - * / %
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         String num1Input = JOptionPane.showInputDialog("Digite o primeiro número:");
