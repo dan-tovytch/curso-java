@@ -2,9 +2,9 @@ package Exercise.ClassesDesafio;
 
 public class Data {
 
-    int Mes;
-    int Dia;
-    int Ano;
+    public int Mes;
+    public int Dia;
+    public int Ano;
 
     Data() {
         Dia = 1;
@@ -12,13 +12,13 @@ public class Data {
         Ano = 1970;
     }
 
-    Data(int diaInicial, int mesInicial, int anoIncial) {
+    public Data(int diaInicial, int mesInicial, int anoIncial) {
         Dia = diaInicial;
         Mes = mesInicial;
         Ano = anoIncial;
     }
 
-    String obterDataFormatada() {
+    public String obterDataFormatada() {
         return String.format("%d/%d/%d", Dia, Mes, Ano);
     }
 
