@@ -20,11 +20,13 @@ public class Data {
     }
 
     public String obterDataFormatada() {
-        return String.format("%d/%d/%d", this.Dia, Mes, Ano);
+        final String formato = "%d/%d/%d";
+        return String.format(formato, this.Dia, Mes, Ano);
     }
 
     void imprimirDataFormatada() {
         System.out.println(this.obterDataFormatada());
     }
+
 
 }
