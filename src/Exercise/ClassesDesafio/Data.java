@@ -6,11 +6,12 @@ public class Data {
     public int Dia;
     public int Ano;
 
-    Data() {
+    public Data() {
 //        Dia = 1;
 //        Mes = 1;
 //        Ano = 1970;
         this(1, 1, 1970);
+
     }
 
     public Data(int Dia, int Mes, int Ano) {
