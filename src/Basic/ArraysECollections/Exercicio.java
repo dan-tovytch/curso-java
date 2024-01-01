@@ -16,8 +16,8 @@ public class Exercicio {
         System.out.println(notasAlunoA[notasAlunoA.length - 1]);
 
         double totalAlunoA = 0;
-        for (int i = 0; i < notasAlunoA.length; i++) {
-            totalAlunoA += notasAlunoA[i];
+        for (double v : notasAlunoA) {
+            totalAlunoA += v;
         }
 
         System.out.println(totalAlunoA / notasAlunoA.length);
@@ -26,8 +26,8 @@ public class Exercicio {
         double[] notasAlunoB = { 6.9, 8.9, 5.5, notaArmazenada, 10 };
 
         double totalAlunoB = 0;
-        for (int i = 0; i < notasAlunoB.length ; i++) {
-            totalAlunoB += notasAlunoB[i];
+        for (double v : notasAlunoB) {
+            totalAlunoB += v;
         }
 
         System.out.println(totalAlunoB / notasAlunoB.length);
