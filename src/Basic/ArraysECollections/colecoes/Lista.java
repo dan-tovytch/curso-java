@@ -1,4 +1,4 @@
-package Basic.colecoes;
+package Basic.ArraysECollections.colecoes;
 
 import java.util.ArrayList;
 import java.util.List;

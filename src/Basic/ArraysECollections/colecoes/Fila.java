@@ -1,4 +1,4 @@
-package Basic.colecoes;
+package Basic.ArraysECollections.colecoes;
 
 import java.util.LinkedList;
 import java.util.Queue;
