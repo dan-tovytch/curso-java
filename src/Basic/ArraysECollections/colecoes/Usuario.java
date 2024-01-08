@@ -24,6 +24,7 @@ public class Usuario {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(nome);
     }
 }
