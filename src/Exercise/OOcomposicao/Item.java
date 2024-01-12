@@ -1,15 +1,11 @@
 package Exercise.OOcomposicao;
 
-import java.util.ArrayList;
-
 public class Item {
 
-    int quatidade;
-
-    Item(int quatidade) {
-        this.quatidade = quatidade;
+    final Produto produto;
+    final int quantidade;
+    Item(Produto produto, int quantidade) {
+        this.produto = produto;
+        this.quantidade = quantidade;
     }
-
-
-    // propria classe do produto
 }

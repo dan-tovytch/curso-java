@@ -7,7 +7,6 @@ public class Produto {
 
     String nome;
     double preco;
-    List<Produto> produtos = new ArrayList<>();
 
     Produto(String nome, double preco) {
         this.nome = nome;
